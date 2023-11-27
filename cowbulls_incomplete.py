@@ -16,7 +16,7 @@ def compare_numbers(number, user_guess):
     return cowbullcount                                  #changed 'cowbull' to 'cowbullcount'
 
 playing = True #gotta play the game
-number = str(random.randint(1000,9999)) #random 4 digit number 
+number = str(random.randint(1000,9999))                  #random 4 digit number 1000-9999 
 guesses = 0
 # removed the 'print(number)' statement                                  
 print(number)
